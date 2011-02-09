@@ -2,3 +2,10 @@ jdbccli
 =====================
 
 Takes SQL statements from the command line and uses a JDBC driver to execute them.
+
+
+
+Build Notice
+---------------------
+
+$  mvn package
