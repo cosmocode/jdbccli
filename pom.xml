@@ -10,7 +10,7 @@
 
     <groupId>de.cosmocode</groupId>
     <artifactId>jdbccli</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <scm>
         <developerConnection>scm:git:git@github.com:cosmocode/jdbccli.git</developerConnection>
