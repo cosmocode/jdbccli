@@ -66,6 +66,11 @@ public final class Main {
                     continue;
                 }
 
+                // exit?
+                if ("QUIT".equals(sql.toUpperCase())) {
+                    System.exit(0);
+                }
+
                 // prepare the query
                 final PreparedStatement stmt = connection.prepareStatement(sql);
 
@@ -104,13 +109,6 @@ public final class Main {
             }
         } catch (IOException e) {
             throw new IllegalStateException(e);
-        } catch (SQLException e) {
-            throw new IllegalStateException(e);
-        }
-
-        // close it
-        try {
-            connection.close();
         } catch (SQLException e) {
             throw new IllegalStateException(e);
         }
