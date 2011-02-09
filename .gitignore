@@ -1,0 +1,37 @@
+# maven generated
+target
+
+# common backup files
+*~
+._*
+*.swp
+*.old
+*.bak
+# directory files
+*.directory
+
+# eclipse
+.classpath
+.buildpath
+.project
+.settings
+
+# idea
+.idea
+*.ipr
+*.iws
+*.iml
+
+# log files and folders
+logs
+*.log
+
+# netbeans
+nbproject
+nbproject/*
+project.xml
+
+# maven
+release.properties
+pom.xml.releaseBackup
+
